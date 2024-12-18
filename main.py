@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 
 class KalkulatorKembalian:
-    def __init__(self, root):
+    def __init__(self, root: tk.Tk):
         self.root = root
         self.root.title("Kalkulator Kembalian")
 
